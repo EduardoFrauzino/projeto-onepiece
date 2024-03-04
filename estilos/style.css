@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+    color: rgb(204, 64, 64);
+    cursor: pointer;
+}
+
+
+
+#imagem-grande {
+    width: 15%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+}
+
+header {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Ajuste a transparência conforme necessário */
+    z-index: 10; /* Mantém acima da imagem de fundo */
+    font-family: 'Anta', sans-serif;
+    height: 20%;
+    
+
+
+}
+
+.lista-menu{
+    display: flex;
+    margin-right: 30px;
+    font-size: 1.4em;
+}
+
+.item-menu {
+    padding: 0 20px;
+    transition: all 0.2s ease-in;
+}
+
+.item-menu:hover {
+    cursor: pointer;
+    color: rgb(63, 172, 235);
+}
+
+#titulo-menu {
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fundo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    background: url('../imagens/fundo03.jpg') center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+    position: absolute;
+    z-index: -1;
+
+    
+}
+
+.fundo-container {
+    display: flex;
+    margin: auto 10%;
+    width: 50%;
+    flex-direction: column;
+    font-size: 2em;
+    width: 35%;
+    font-family: 'Anta', sans-serif;
+    text-align: center;
+    
+    
+    
+}
+
+.fundo-container p {
+    margin-top: 30px;
+}
